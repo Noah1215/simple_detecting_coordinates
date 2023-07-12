@@ -1,0 +1,14 @@
+!! what I learned !!
+
+//Javascript
+
+1. addEventListener('mousemove')
+- when a pointing device is moved, mousemove event is fired at an element.
+
+2. event.clientX, event.clientY / screenX, screenY
+- clientX and clientY provide the coordinates within the application's viewport.
+- screenX, screenY provide of the mouse pointer in global(screen) coordinates.
+- 'screenX/Y' vs 'clientX/Y' vs 'pageX/Y'
+  => 'screenX/Y' are from monitor(screen).
+  => 'clientX/Y' are from browser window.
+  => 'pageX/Y' are from web page (total page's length).
