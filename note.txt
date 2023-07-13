@@ -12,3 +12,9 @@
   => 'screenX/Y' are from monitor(screen).
   => 'clientX/Y' are from browser window.
   => 'pageX/Y' are from web page (total page's length).
+
+3. why using transform?
+(https://www.lmame-geek.com/css-triggers/)
+- if using style.top or style.left, browser will operate layout, paint, composition in order.
+- It degrades performance, but if using transform, browser will operate only composition.
+
